@@ -1,0 +1,26 @@
+# Локальная конфигурация с секретами
+/config/config.php
+
+# Пользовательские загрузки (будут добавлены на следующих этапах)
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/.htaccess
+!/uploads/covers/
+!/uploads/covers/.gitkeep
+!/uploads/photos/
+!/uploads/photos/.gitkeep
+!/uploads/tickets/
+!/uploads/tickets/.gitkeep
+!/uploads/tickets/.htaccess
+
+# Системные и редакторские файлы
+.DS_Store
+.idea/
+.vscode/
+
+# Логи и временные файлы
+*.log
+/tmp/
+
+# Локальные архивы для передачи результата
+/outputs/
